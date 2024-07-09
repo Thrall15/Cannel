@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 1rem;
+    text-align: center;
+    background: #cfcfcf;
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+nav button{
+    background: none;
+    border: none;
+    border-bottom: solid 1px;
+}
+section{
+    padding: 0.5px;
+}
+div{
+    padding: 0.5rem;
+    text-align: center;
+    background: #cfcfcf;
+    border-radius: 10px;
+}
+.connexion span{
+    display: grid;
+}
+.connexion form{
+    display: grid;
+}
+.connexion input{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;  
+}
+.connexion p{
+    text-align: left;
+}
+input[type=submit]{
+    background: chartreuse;
+    padding: 10px;
+}
+textarea{
+    display: none;
+}
+.pin{
+    display: flex;
+    flex-direction: column;
+}
+.pin input{
+    width: 50%;
+}
